@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayStack Practice</title>
+</head>
+<body>
+    <form action="/" id="paymentForm" method="post">
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email-address" required name="email" />
+        </div>
+        <div class="form-group">
+            <label for="amount">Amount</label>
+            <input type="tel" id="amount" required name="amount" />
+        </div>
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="fname" />
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lname" />
+        </div>
+        <div class="form-submit">
+            <!-- <button type="submit" onclick="payWithPaystack()"> Pay </button> -->
+            <button type="submit" > Pay </button>
+        </div>
+    </form>
+    
+</body>
+</html>
