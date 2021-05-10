@@ -2,6 +2,6 @@
 
 You need create a .env file.
 
-Add your paystack api url, api key and set port for app to work.
+Set your paystack api url, api key and set port in .env file
 
 Look at config.js to see variables used in .env file
